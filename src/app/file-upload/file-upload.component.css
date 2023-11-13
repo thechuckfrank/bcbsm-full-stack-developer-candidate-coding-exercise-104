@@ -1,0 +1,30 @@
+
+.file-upload-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  
+  .button-container {
+    cursor: pointer;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+ 
+  .button-container:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .error-message {
+    color: #ff0000; 
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
