@@ -1,0 +1,13 @@
+<div class="file-upload-container">
+  <input type="file" multiple (change)="onFileSelected($event)" />
+
+  <div *ngIf="noFilesSelected" class="error-message">No files selected.</div>
+
+  <button (click)="uploadFiles()">Upload Files</button>
+</div>
+
+
+<app-download></app-download>
+
+<button routerLink="/download">Go to Download</button>
+

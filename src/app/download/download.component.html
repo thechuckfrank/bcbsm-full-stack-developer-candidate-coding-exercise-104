@@ -1,0 +1,4 @@
+
+<input [(ngModel)]="filenameInput" placeholder="Enter filename" />
+<button (click)="downloadFiles()">Download Files</button>
+<div *ngIf="downloadMessage">{{ downloadMessage }}</div>
